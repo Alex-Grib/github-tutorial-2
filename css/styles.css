@@ -1,3 +1,95 @@
+/* основной цвет фона #ffffff */
+/* вторичный цвет фона #F5F4FA */
+/* основной цвет текста #757575 */
+/* вторичный цвет текста #212121 */
+/* вспомогающий цвет текста #FFFFFF */
+/* акцент на странице #2196F3 */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+
 body {
-  background: red;
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+/* настраивает текст заголовков всех уровней */
+h1,
+h2,
+h3 {
+  color: var(--title-text-color);
+}
+
+/* настраивает кнопку */
+.button {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+/* убирает точки и подчеркивания на ссылках */
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* Логотип web studio */
+.logo-web {
+  color: var(--accent-color);
+}
+
+.logo-studio {
+  color: #000000;
+}
+
+/* навигация: студия, портфолио, навигация */
+
+.nav-list {
+  color: var(--title-text-color);
+}
+.nav-list:hover,
+.nav-list:focus {
+  color: var(--accent-color);
+}
+
+/* оформление тега адресс */
+
+.address {
+  list-style: none;
+  font-style: inherit;
+}
+
+.address-list {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+.address-list:hover,
+.address-list:focus {
+  color: var(--accent-color);
+}
+
+/* настраивает оформление футера */
+footer {
+  background-color: #2f303a;
+}
+
+.maps-footer {
+  color: #020202;
+}
+
+.address-footer {
+  color: var(--primary-text-color);
+}
+
+/* Логотип web studio ФУТЕР */
+.logo-web {
+  color: var(--accent-color);
+}
+
+.logo-footer {
+  color: #ffffff;
 }
