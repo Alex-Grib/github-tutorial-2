@@ -56,7 +56,7 @@ body {
 } */
 
 .container {
-  width: 1230px;
+  width: 1170px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -189,10 +189,17 @@ address {
   line-height: 1.71;
 }
 .services-svg {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
   border-radius: 4px;
-  margin-bottom: 55px;
+  margin-bottom: 30px;
+  text-align: center;
 }
-
+.services-svg-icon {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
 .services-icon {
   padding-top: 94px;
 }
@@ -234,10 +241,12 @@ address {
 }
 .team-list {
   display: flex;
+  padding-bottom: 94px;
 }
 
 .team {
   margin-bottom: 10px;
+  margin-top: 30px;
   text-align: center;
   color: var(--title-text-color);
   font-weight: 500;
@@ -247,6 +256,7 @@ address {
 
 .team-tittle {
   margin-bottom: 16px;
+
   text-align: center;
   color: var(--primary-text-color);
   font-weight: 400;
@@ -257,7 +267,12 @@ address {
 .team-card:not(:last-child) {
   margin-right: 30px;
 }
-
+.team-card {
+  background-color: var(--primary-white-color);
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 0px 0px 4px 4px;
+}
 .social-icon {
   display: flex;
   justify-content: center;
@@ -265,12 +280,14 @@ address {
 .social-svg:not(:last-child) {
   margin-right: 10px;
 }
+.social-svg {
+  padding-bottom: 24px;
+}
 
-/* Оформление секции наша команда */
+/* Оформление секции наши клиенты */
 
 .clients-list {
   display: flex;
-  justify-content: center;
   padding-top: 50px;
   padding-bottom: 94px;
   align-items: center;
@@ -282,6 +299,19 @@ address {
   height: 90px;
 }
 
+.clients-border {
+  width: 170px;
+  height: 90px;
+  border: solid;
+  border-radius: 4px;
+  border-color: #afb1b8;
+}
+.clients-svg {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 63px;
+  padding-right: 63px;
+}
 /* оформление футера */
 
 .footer-list {
@@ -301,6 +331,7 @@ address {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
 .logo-footer {
   color: white;
 }
@@ -315,6 +346,8 @@ address {
 /* оформление адресса в футере */
 
 .address-map {
+  margin-top: 20px;
+
   color: var(--primary-white-color);
   font-weight: 400;
   font-size: 14px;
@@ -390,7 +423,12 @@ address {
 .button-list {
   margin-right: 8px;
 }
-
+.portfolio-tittle {
+  padding-right: 22px;
+  padding-left: 22px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
 .button-portfolio {
   font-weight: 500;
   font-size: 16px;
@@ -423,7 +461,7 @@ address {
 }
 
 .projects-list {
-  width: 370px;
+  width: 360px;
   margin-right: 30px;
   margin-bottom: 30px;
 }
@@ -444,6 +482,7 @@ address {
 }
 
 .projects-link {
+  padding-bottom: 114px;
   color: var(--primary-text-color);
   font-weight: 400;
   font-size: 16px;
